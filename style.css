@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background:url('imgs/bg3.jpg') no-repeat center center/cover ;
+}
+
+.hand{
+    width: 10%;
+    height: 6px;
+    background: rgba(16, 93, 216, 0.835);
+    position: absolute;
+    transform: rotate(90deg);
+    left: 40%;
+    top: 50%;
+    transform-origin: 98%;
+    transition: all 0.8s;
+    transform: cubic-bezier(0, 2.11, 0.58, 1);
+
+    
+}
+.clock{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-face{
+    width: 15vh;
+    height: 15vh;
+    border:20px solid red;
+    border-radius: 50%;
+    padding: 10vh 10vh;
+}
+/* .min-hand{
+    background: blue;
+}
+.hour-hand{
+    background: rgb(211, 42, 42);
+    width: 5%;
+} */
+/* .hour-hand{
+    transform: rotate(20deg);
+} */
